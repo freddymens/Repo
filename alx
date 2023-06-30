@@ -1,0 +1,21 @@
+[✓]fred ~/Freddymens/Repositories > mkdir Repo
+[✓]fred ~/Freddymens/Repositories > cd Repo
+[✓]fred ~/Freddymens/Repositories/Repo '# Repo!' > Readme.md 
+[✓]fred ~/Freddymens/Repositories/Repo git init 
+initialized empty Git repository in /Users/fred/Freddymens/Reositories/vim/ .git/
+[✓]fred ~/Freddymens/Repositories/Repo > git add README.md
+[✓]fred ~/Freddymens/Repositories/Repo > git commit -m "Add: README file"
+[master (root-commit) 18e76ac] Add: README file
+ 1 file changed, 1 insertion(+)
+creatw mode 100644 README.md
+[✓]fred ~/Freddymens/Repositories/Repo > git branch -M main
+[✓]fred ~/Freddymens/Repositories/Repo > git remote add origin git@github.com:freddymens/vim.git
+[✓]fred ~/Freddymens/Repositories/Repo > git push -u origin main
+enumerating objects: 3,done.
+counting objects: 100% (3?3), done.
+writing objects: 100% (3/3), 889 bytes | 889.00 KiB/s, done.
+Total 3 (delta 0). reused 0 (delta), pack-refused 0
+To github.com:freddymens/vim.git
+* [new branch]       main=> main
+Branch 'main' set up to track remote branch 'main' from origin
+[✓]fred ~/Freddymens/Repositories/Repo >
